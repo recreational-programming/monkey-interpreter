@@ -23,6 +23,6 @@ func TestString(t *testing.T) {
 	}
 
 	if program.String() != "let myVar = anotherVar;" {
-		t.Errorf("program string is wrong. got= '%q'", program.String())
+		t.Errorf("program.String() is wrong. got= '%q'", program.String())
 	}
 }
